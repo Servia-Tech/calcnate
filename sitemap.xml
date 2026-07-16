@@ -23,4 +23,7 @@
 <url><loc>https://calcnate.com/privacy/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://calcnate.com/terms/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://calcnate.com/ai/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://calcnate.com/ar/uae/gratuity-calculator/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://calcnate.com/hi/uae/gratuity-calculator/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://calcnate.com/ur/uae/gratuity-calculator/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
