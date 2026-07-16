@@ -13,7 +13,7 @@
 - [Philippines Separation Pay Calculator](https://calcnate.com/philippines/separation-pay-calculator/): Philippines: separation pay 1 month/year (redundancy) or ½ month/year (retrenchment/closure/disease), min 1 month; retirement 22.5 days/year (60-65, 5yr+); resignation none.
 
 ## API for AI apps
-- API: https://api.calcnate.com/gratuity?country=ae&basic=6000&years=7 (codes: ae,sa,qa,kw,bh,om,in,ph)
+- API: https://servia.ae/api/calc/gratuity?country=ae&basic=6000&years=7 (codes: ae,sa,qa,kw,bh,om,in,ph)
 - OpenAPI: https://calcnate.com/openapi.yaml (ChatGPT Actions)
 - MCP: https://calcnate.com/mcp.json (Claude & ChatGPT Apps)
 - Contact: support@servia.ae

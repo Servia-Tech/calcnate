@@ -4,9 +4,9 @@ info:
   description: Computes end-of-service gratuity and severance for UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman, India and the Philippines, using each country's statutory formula.
   version: "1.0.0"
 servers:
-  - url: https://api.calcnate.com
+  - url: https://servia.ae
 paths:
-  /gratuity:
+  /api/calc/gratuity:
     get:
       operationId: calcGratuity
       summary: Calculate end-of-service gratuity or severance for a country

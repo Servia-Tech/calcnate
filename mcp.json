@@ -2,7 +2,7 @@
   "name": "calcnate",
   "version": "1.0.0",
   "description": "End-of-service gratuity & severance calculators for UAE, Saudi, Qatar, Kuwait, Bahrain, Oman, India, Philippines.",
-  "endpoint": "https://api.calcnate.com/mcp",
+  "endpoint": "https://servia.ae/api/calc/gratuity",
   "tools": [
     {
       "name": "calc_gratuity",
