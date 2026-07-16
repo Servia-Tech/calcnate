@@ -1,0 +1,19 @@
+# Calcnate
+> Free, law-accurate end-of-service & gratuity calculators. A Servia Group (servia.ae) project, built in the UAE.
+
+## Calculators
+- [Gratuity Calculator UAE](https://calcnate.com/uae/gratuity-calculator/): UAE: 21 days basic salary/year first 5 years, 30 days/year after, ÷30 daily, cap 2 years' wages, min 1 year, resignation no longer reduces it (Decree-Law 33/2021).
+- [UAE Final Settlement Calculator](https://calcnate.com/uae/final-settlement-calculator/): 
+- [Saudi End of Service Calculator](https://calcnate.com/saudi/end-of-service-calculator/): Saudi (ESB): ½ month/year first 5, 1 month/year after, on last wage incl. allowances; resignation reduced (0 under 2yr, ⅓ 2-5yr, ⅔ 5-10yr, full 10yr+).
+- [Qatar Gratuity Calculator](https://calcnate.com/qatar/end-of-service-calculator/): Qatar: ≥21 days (3 weeks) basic wage per completed year, min 1 year, no resignation reduction.
+- [Kuwait Indemnity Calculator](https://calcnate.com/kuwait/indemnity-calculator/): Kuwait indemnity: 15 days/year first 5, 1 month/year after, daily=monthly÷26, on full pay; cap 18 months; resignation reduced.
+- [Bahrain Leaving Indemnity Calculator](https://calcnate.com/bahrain/leaving-indemnity-calculator/): Bahrain: ½ month/year first 3 years, 1 month/year after, pro-rated from day one, on last wage.
+- [Oman Gratuity Calculator](https://calcnate.com/oman/gratuity-calculator/): Oman (RD 53/2023): 1 month basic/year for service from Aug 2023; earlier service 15 days/yr first 3 then 1 month/yr; min 1 year.
+- [India Gratuity Calculator](https://calcnate.com/india/gratuity-calculator/): India (Payment of Gratuity Act): (last basic+DA × 15 × years) ÷ 26, after 5 years, >6 months rounds up, cap ₹20 lakh.
+- [Philippines Separation Pay Calculator](https://calcnate.com/philippines/separation-pay-calculator/): Philippines: separation pay 1 month/year (redundancy) or ½ month/year (retrenchment/closure/disease), min 1 month; retirement 22.5 days/year (60-65, 5yr+); resignation none.
+
+## API for AI apps
+- API: https://api.calcnate.com/gratuity?country=ae&basic=6000&years=7 (codes: ae,sa,qa,kw,bh,om,in,ph)
+- OpenAPI: https://calcnate.com/openapi.yaml (ChatGPT Actions)
+- MCP: https://calcnate.com/mcp.json (Claude & ChatGPT Apps)
+- Contact: support@servia.ae

@@ -1,0 +1,52 @@
+{
+  "name": "calcnate",
+  "version": "1.0.0",
+  "description": "End-of-service gratuity & severance calculators for UAE, Saudi, Qatar, Kuwait, Bahrain, Oman, India, Philippines.",
+  "endpoint": "https://api.calcnate.com/mcp",
+  "tools": [
+    {
+      "name": "calc_gratuity",
+      "description": "Calculate end-of-service gratuity/severance for a country using its statutory formula.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "string",
+            "enum": [
+              "ae",
+              "sa",
+              "qa",
+              "kw",
+              "bh",
+              "om",
+              "in",
+              "ph"
+            ]
+          },
+          "basic": {
+            "type": "number",
+            "description": "Monthly salary"
+          },
+          "years": {
+            "type": "number",
+            "description": "Years of service"
+          },
+          "reason": {
+            "type": "string",
+            "enum": [
+              "term",
+              "resign"
+            ]
+          }
+        },
+        "required": [
+          "country",
+          "basic",
+          "years"
+        ]
+      }
+    }
+  ],
+  "homepage": "https://calcnate.com/ai/",
+  "contact": "support@servia.ae"
+}

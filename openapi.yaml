@@ -1,0 +1,45 @@
+openapi: 3.1.0
+info:
+  title: Calcnate End-of-Service API
+  description: Computes end-of-service gratuity and severance for UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman, India and the Philippines, using each country's statutory formula.
+  version: "1.0.0"
+servers:
+  - url: https://api.calcnate.com
+paths:
+  /gratuity:
+    get:
+      operationId: calcGratuity
+      summary: Calculate end-of-service gratuity or severance for a country
+      parameters:
+        - name: country
+          in: query
+          required: true
+          description: ISO-style country code
+          schema: { type: string, enum: [ae, sa, qa, kw, bh, om, in, ph] }
+        - name: basic
+          in: query
+          required: true
+          description: Monthly salary (basic, or basic+DA for India)
+          schema: { type: number }
+        - name: years
+          in: query
+          required: true
+          description: Years of continuous service (decimals allowed)
+          schema: { type: number }
+        - name: reason
+          in: query
+          required: false
+          description: term (terminated) or resign (resigned) — affects Saudi/Kuwait
+          schema: { type: string, enum: [term, resign] }
+      responses:
+        "200":
+          description: Gratuity result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  country: { type: string }
+                  currency: { type: string }
+                  gratuity: { type: number }
+                  breakdown: { type: string }
