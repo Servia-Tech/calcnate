@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>കുവൈറ്റ് ഇൻഡെമ്നിറ്റി കാൽക്കുലേറ്റർ 2026 | Calcnate</title>
+<meta name="description" content="കുവൈറ്റ് തൊഴിൽ നിയമപ്രകാരമുള്ള എൻഡ്-ഓഫ്-സർവീസ് ഇൻഡെമ്നിറ്റി — ആദ്യ 5 വർഷത്തിന് 15 ദിവസം, പിന്നീട് ഒരു മാസം; പരമാവധി 18 മാസത്തെ വേതനം.">
+<link rel="canonical" href="https://calcnate.com/ml/kuwait/indemnity-calculator/">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0496AD">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "കുവൈറ്റ് ഇൻഡെമ്നിറ്റി കാൽക്കുലേറ്റർ", "url": "https://calcnate.com/ml/kuwait/indemnity-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "ml", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "കുവൈറ്റിൽ ഇൻഡെമ്നിറ്റി എങ്ങനെ കണക്കാക്കുന്നു?", "acceptedAnswer": {"@type": "Answer", "text": "ആദ്യ അഞ്ച് വർഷത്തിന് 15 ദിവസത്തെ വേതനവും അഞ്ചിന് ശേഷം ഓരോ വർഷത്തിനും ഒരു മാസ വേതനവും, ദിന വേതനം = മാസ വേതനം ÷ 26 എന്ന നിരക്കിൽ, പരമാവധി 18 മാസത്തെ വേതനത്തിൽ പരിമിതം."}}, {"@type": "Question", "name": "കുവൈറ്റിൽ രാജിവെച്ചാൽ ഇൻഡെമ്നിറ്റി ലഭിക്കുമോ?", "acceptedAnswer": {"@type": "Answer", "text": "അതെ, കുറഞ്ഞ നിരക്കിൽ: 3 വർഷത്തിൽ താഴെ ഒന്നും ഇല്ല, 3–5 വർഷത്തിന് പകുതി, 5–10 വർഷത്തിന് മൂന്നിൽ രണ്ട്, 10+ വർഷത്തിന് പൂർണ്ണ തുക."}}]}</script>
+<style>:root{--ink:#0f172a;--teal:#0496AD;--deep:#0F766E;--muted:#64748b;--border:#e2e8f0;--bg:#f8fafc;--good:#047857}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+body[dir=rtl]{font-family:"Segoe UI",Tahoma,Arial,sans-serif}
+.nav{background:#fff;border-bottom:1px solid var(--border);padding:10px 16px;display:flex;gap:14px;align-items:center;font-size:14px;flex-wrap:wrap}
+.nav a{color:var(--deep);text-decoration:none;font-weight:700}.nav .brand{font-size:17px;color:var(--ink);margin-inline-end:auto}.nav .brand b{color:var(--teal)}
+.nav .lang{font-size:12px;color:var(--muted);font-weight:600}
+.top{background:linear-gradient(135deg,#0F766E,#0496AD);color:#fff;padding:26px 18px}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+.top h1{font-size:25px;letter-spacing:-.02em}.top p{opacity:.93;font-size:14px;margin-top:6px}
+.card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+label{display:block;font-size:13px;font-weight:600;margin:14px 0 5px}
+.hint{font-weight:400;color:var(--muted);font-size:12px}
+input,select{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:#fff}
+input:focus,select:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(4,150,173,.12)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{margin-top:18px;width:100%;background:var(--teal);color:#fff;border:0;padding:14px;border-radius:10px;font-size:16px;font-weight:800;cursor:pointer}
+.btn:hover{background:var(--deep)}
+.res{display:none}
+.line{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--border);font-size:15px}
+.line span:last-child{font-weight:700;font-variant-numeric:tabular-nums}
+.total{display:flex;justify-content:space-between;padding:16px 0 4px;font-size:20px;font-weight:800;color:var(--good)}
+.sub{font-size:13px;color:var(--muted)}
+h2{font-size:19px;margin:22px 0 8px}h3{font-size:16px;margin:16px 0 6px}
+p{margin:8px 0}
+.disc{font-size:12px;color:var(--muted);background:#FFFBEB;border:1px solid #FDE68A;border-radius:10px;padding:12px;margin-top:14px;line-height:1.5}
+.actions{display:flex;gap:10px;margin-top:14px}
+.actions button{flex:1;padding:11px;border-radius:10px;border:1px solid var(--border);background:#fff;font-weight:700;cursor:pointer;font-size:14px}
+details{margin-top:10px;border:1px solid var(--border);border-radius:10px;padding:2px 14px;background:#fff}
+summary{font-weight:700;padding:12px 0;cursor:pointer;font-size:14px}
+details p{padding:0 0 12px;font-size:14px;color:#334155;margin:0}
+.rel{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.rel a{background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 13px;font-size:13px;color:var(--deep);text-decoration:none}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:26px;line-height:1.9}
+footer a{color:var(--deep)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0}
+td,th{border:1px solid var(--border);padding:8px 10px;text-align:start}th{background:var(--bg)}
+article{background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px;margin:16px 0}
+article h2{margin-top:18px}article ul,article ol{margin:8px 0 8px 22px}article li{margin:5px 0}
+.toolgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.tool{background:#fff;border:1px solid var(--border);border-radius:16px;padding:16px;text-decoration:none;color:var(--ink);box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.tool:hover{box-shadow:0 4px 14px rgba(4,150,173,.15)}
+.tool .ic{font-size:24px}.tool h3{font-size:15px;margin:6px 0 3px}.tool p{font-size:12.5px;color:var(--muted);margin:0}
+.tool.soon{opacity:.6}
+.crumb{font-size:12px;color:var(--muted);padding:10px 0}.crumb a{color:var(--deep);text-decoration:none}
+</style>
+</head>
+<body>
+<link rel="alternate" hreflang="x-default" href="https://calcnate.com/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="en" href="https://calcnate.com/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="ar" href="https://calcnate.com/ar/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="hi" href="https://calcnate.com/hi/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="ur" href="https://calcnate.com/ur/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="ml" href="https://calcnate.com/ml/kuwait/indemnity-calculator/">
+<link rel="alternate" hreflang="tl" href="https://calcnate.com/tl/kuwait/indemnity-calculator/">
+<nav class="nav"><a class="brand" href="/">calc<b>nate</b></a><span class="lang"><a href="https://calcnate.com/kuwait/indemnity-calculator/">EN</a> · <a href="https://calcnate.com/ar/kuwait/indemnity-calculator/">العربية</a> · <a href="https://calcnate.com/hi/kuwait/indemnity-calculator/">हिन्दी</a> · <a href="https://calcnate.com/ur/kuwait/indemnity-calculator/">اردو</a> · <a href="https://calcnate.com/ml/kuwait/indemnity-calculator/">മലയാളം</a> · <a href="https://calcnate.com/tl/kuwait/indemnity-calculator/">Tagalog</a></span></nav>
+<div class="top"><div class="wrap"><h1>🇰🇼 കുവൈറ്റ് ഇൻഡെമ്നിറ്റി കാൽക്കുലേറ്റർ</h1><p>കുവൈറ്റ് തൊഴിൽ നിയമപ്രകാരമുള്ള എൻഡ്-ഓഫ്-സർവീസ് ഇൻഡെമ്നിറ്റി — ആദ്യ 5 വർഷത്തിന് 15 ദിവസം, പിന്നീട് ഒരു മാസം; പരമാവധി 18 മാസത്തെ വേതനം.</p></div></div>
+<div class="wrap">
+<div class="card">
+<h2 style="margin-top:0">നിങ്ങളുടെ വിവരങ്ങൾ നൽകുക</h2>
+<label>മൊത്തം മാസ വേതനം (KWD)</label><input id="basic" type="number" inputmode="decimal" placeholder="6000">
+<div class="grid2"><div><label>സേവന വർഷങ്ങൾ</label><input id="yrs" type="number" placeholder="4"></div><div><label>അധിക മാസങ്ങൾ</label><input id="mos" type="number" placeholder="6"></div></div>
+<label>ജോലി എങ്ങനെ അവസാനിച്ചു?</label><select id="reason"><option value="term">തൊഴിലുടമ പിരിച്ചുവിട്ടത് (പൂർണ്ണ തുക)</option><option value="resign">രാജി (കുറവ് ബാധകം)</option></select>
+<button class="btn" onclick='cnEOS({"cur": "KWD", "divisor": 26, "minAny": 0, "capMonths": 18, "resignTiers": [{"upto": 3, "mult": 0}, {"upto": 5, "mult": 0.5}, {"upto": 10, "mult": 0.6666666666666666}, {"upto": 9999, "mult": 1}], "bands": [{"upto": 5, "days": 15, "label": ""}, {"upto": 9999, "days": 30, "label": ""}]})'>കണക്കാക്കുക →</button>
+</div>
+<div class="card res" id="res"><h2 style="margin-top:0">ഏകദേശ ഫലം</h2><div id="lines"></div><div class="total"><span>ആകെ</span><span id="total">KWD 0</span></div><div class="disc" id="disc"></div></div>
+<h2>എങ്ങനെ കണക്കാക്കുന്നു</h2><div class="card"><table><tr><td>ആദ്യ 5 വർഷം</td><td>വർഷത്തിന് 15 ദിവസത്തെ വേതനം</td></tr><tr><td>5 വർഷത്തിനു ശേഷം</td><td>വർഷത്തിന് ഒരു മാസ വേതനം</td></tr><tr><td>ദിന വേതനം</td><td>മാസ വേതനം ÷ 26</td></tr><tr><td>പരമാവധി പരിധി</td><td>18 മാസത്തെ മൊത്തം വേതനം</td></tr></table></div>
+<h2>പതിവ് ചോദ്യങ്ങൾ</h2>
+<details open><summary>കുവൈറ്റിൽ ഇൻഡെമ്നിറ്റി എങ്ങനെ കണക്കാക്കുന്നു?</summary><p>ആദ്യ അഞ്ച് വർഷത്തിന് 15 ദിവസത്തെ വേതനവും അഞ്ചിന് ശേഷം ഓരോ വർഷത്തിനും ഒരു മാസ വേതനവും, ദിന വേതനം = മാസ വേതനം ÷ 26 എന്ന നിരക്കിൽ, പരമാവധി 18 മാസത്തെ വേതനത്തിൽ പരിമിതം.</p></details>
+<details><summary>കുവൈറ്റിൽ രാജിവെച്ചാൽ ഇൻഡെമ്നിറ്റി ലഭിക്കുമോ?</summary><p>അതെ, കുറഞ്ഞ നിരക്കിൽ: 3 വർഷത്തിൽ താഴെ ഒന്നും ഇല്ല, 3–5 വർഷത്തിന് പകുതി, 5–10 വർഷത്തിന് മൂന്നിൽ രണ്ട്, 10+ വർഷത്തിന് പൂർണ്ണ തുക.</p></details>
+<div class="disc">ഇത് ഏകദേശ കണക്ക് മാത്രം — നിയമോപദേശമല്ല. കുവൈറ്റ് തൊഴിൽ നിയമം അനുസരിച്ച്; PAM-മായി സ്ഥിരീകരിക്കുക.</div>
+<div class="rel"><a href="/kuwait/indemnity-guide/">പൂർണ്ണ ഗൈഡ് (ഇംഗ്ലീഷ്) →</a><a href="https://calcnate.com/kuwait/indemnity-calculator/">English</a></div>
+</div>
+<script>
+function cn_n(id){var e=document.getElementById(id);if(!e)return 0;var v=parseFloat(e.value);return isNaN(v)?0:v;}
+function cn_money(cur,n){return cur+' '+(Math.round(n)).toLocaleString('en-US');}
+function cn_show(lines,total,cur,note){
+  document.getElementById('lines').innerHTML=lines;
+  document.getElementById('total').textContent=cn_money(cur,total);
+  document.getElementById('disc').innerHTML=note||'';
+  var r=document.getElementById('res');r.style.display='block';r.scrollIntoView({behavior:'smooth'});
+  window._cnsum=document.getElementById('res').innerText;
+}
+function cn_share(){if(window._cnsum&&navigator.clipboard){navigator.clipboard.writeText(window._cnsum);alert('Summary copied.');}}
+
+// Generic end-of-service engine. Bands express DAYS of wage per year of service.
+function cnEOS(c){
+  var cur=c.cur, basic=cn_n('basic');
+  if(basic<=0){alert('Please enter your monthly salary.');return;}
+  var y=cn_n('yrs'), m=cn_n('mos'), service=y+m/12;
+  var reasonEl=document.getElementById('reason'), reason=reasonEl?reasonEl.value:'term';
+  if(service < (c.minAny||0)){ cn_show('', 0, cur, 'ℹ️ You need at least '+c.minAny+' year(s) of continuous service to qualify.'); return; }
+  var svc=service;
+  if(c.roundYears){ var whole=Math.floor(service); var frac=service-whole; svc=whole+(frac>0.5?1:0); if(svc<1)svc=service; }
+  var prev=0, days=0, detail=[];
+  for(var i=0;i<c.bands.length;i++){
+    var b=c.bands[i]; var span=Math.min(svc,b.upto)-prev; if(span>0){ var d=span*b.days; days+=d; detail.push([b.label, span, d]); }
+    prev=b.upto; if(svc<=b.upto) break;
+  }
+  var daily=basic/c.divisor, award=days*daily, gross=award, mult=1, capd=false;
+  if(reason==='resign' && c.resignTiers){
+    mult=c.resignTiers[c.resignTiers.length-1].mult;
+    for(var j=0;j<c.resignTiers.length;j++){ if(service < c.resignTiers[j].upto){ mult=c.resignTiers[j].mult; break; } }
+    award=award*mult;
+  }
+  if(c.capMonths && award > c.capMonths*basic){ award=c.capMonths*basic; capd=true; }
+  if(c.capAbs && award > c.capAbs){ award=c.capAbs; capd=true; }
+  var L='';
+  for(var k=0;k<detail.length;k++){ L+='<div class="line"><span>'+detail[k][0]+'<br><span class="sub">'+detail[k][1].toFixed(2)+' yrs × '+(detail[k][2]/detail[k][1]).toFixed(0)+' days</span></span><span>'+cn_money(cur, detail[k][2]*daily)+'</span></div>'; }
+  if(mult<1) L+='<div class="line"><span>Resignation reduction<br><span class="sub">×'+mult.toFixed(2)+' ('+service.toFixed(1)+' yrs service)</span></span><span>'+cn_money(cur,-(gross-gross*mult))+'</span></div>';
+  var note = '✅ '+service.toFixed(2)+' years of service. Daily wage: '+cn_money(cur,daily)+' (salary ÷ '+c.divisor+').';
+  if(mult===0) note='ℹ️ Resigning with under '+c.resignTiers[0].upto+' years of service — no end-of-service benefit is due here.';
+  if(capd) note='ℹ️ Capped at the legal maximum.';
+  cn_show(L, award, cur, note);
+}
+
+// Oman: pre/post Aug-2023 split. Optional #pre2023 years input.
+function cnOman(){
+  var cur='OMR', basic=cn_n('basic'); if(basic<=0){alert('Enter your monthly basic salary.');return;}
+  var y=cn_n('yrs'), m=cn_n('mos'), service=y+m/12;
+  if(service<1){ cn_show('',0,cur,'ℹ️ Minimum 1 year of service required.'); return; }
+  var pre=cn_n('pre2023'); if(pre>service)pre=service; var post=service-pre;
+  // old law on pre years: 15 days/yr first 3, 30 days/yr after; new law on post years: 30 days/yr
+  var preDays=Math.min(pre,3)*15 + Math.max(0,pre-3)*30;
+  var postDays=post*30;
+  var daily=basic/30, preAward=preDays*daily, postAward=postDays*daily, total=preAward+postAward;
+  var L='';
+  if(pre>0) L+='<div class="line"><span>Service before Aug 2023<br><span class="sub">'+pre.toFixed(2)+' yrs (old law)</span></span><span>'+cn_money(cur,preAward)+'</span></div>';
+  L+='<div class="line"><span>Service from Aug 2023<br><span class="sub">'+post.toFixed(2)+' yrs (1 month/yr)</span></span><span>'+cn_money(cur,postAward)+'</span></div>';
+  cn_show(L, total, cur, '✅ '+service.toFixed(2)+' years total. Basic salary basis.');
+}
+
+// Philippines separation / retirement pay
+function cnPH(){
+  var cur='PHP', pay=cn_n('basic'); if(pay<=0){alert('Enter your monthly pay.');return;}
+  var y=cn_n('yrs'), m=cn_n('mos'), service=y+m/12;
+  var rounded=Math.floor(service)+((service-Math.floor(service))>=0.5?1:0); if(rounded<1)rounded=1;
+  var cause=document.getElementById('reason').value;
+  var perYear, label, total;
+  if(cause==='resign'){ cn_show('', 0, cur, 'ℹ️ Voluntary resignation generally has no separation pay in the Philippines (unless your contract or CBA provides it).'); return; }
+  if(cause==='retire'){ // retirement pay 22.5 days/yr
+    var daily=pay/30; total=rounded*22.5*daily; label='Retirement pay (22.5 days/yr)';
+    cn_show('<div class="line"><span>'+label+'<br><span class="sub">'+rounded+' yrs</span></span><span>'+cn_money(cur,total)+'</span></div>', total, cur, '✅ '+rounded+' years counted (fraction ≥6 months = 1 year). Age 60–65, ≥5 years.');
+    return;
+  }
+  if(cause==='redundancy'){ perYear=pay; label='1 month pay / year (redundancy or labour-saving)'; }
+  else { perYear=pay*0.5; label='½ month pay / year (retrenchment, closure or disease)'; }
+  total=rounded*perYear; if(total<pay)total=pay; // 1-month floor
+  cn_show('<div class="line"><span>'+label+'<br><span class="sub">'+rounded+' yrs</span></span><span>'+cn_money(cur,total)+'</span></div>', total, cur, '✅ Authorized-cause separation pay. Minimum 1 month. Fraction ≥6 months counts as a full year.');
+}
+</script>
+<footer>© 2026 Calcnate · <a href="https://servia.ae">Servia Group</a> · <a href="https://calcnate.com/kuwait/indemnity-calculator/">English</a></footer>
+</body></html>
