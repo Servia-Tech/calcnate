@@ -53,6 +53,18 @@
 - [UAE Maternity Leave Entitlement: 60 Days, Full & Half Pay Explained](https://calcnate.com/blog/uae-maternity-leave-entitlement/): 45 days full pay + 15 half pay, no minimum service, and what it's worth.
 - [Maternity Leave Compared Across 8 Countries](https://calcnate.com/blog/gcc-maternity-leave-compared/): Duration, pay level, minimum service and who funds it, side by side.
 - [UAE Full and Final Settlement Checklist: Everything You're Owed When You Leave](https://calcnate.com/blog/full-and-final-settlement-uae-checklist/): Gratuity, leave encashment, notice, dues and ILOE — each with its calculator.
+
+## Guides & articles (blog)
+- [UAE Gratuity After Resignation: Do You Still Get Paid in 2026?](https://calcnate.com/blog/uae-gratuity-after-resignation/): Why resignation and termination now pay the same — and the old 1/3, 2/3 tiers explained.
+- [Saudi End-of-Service Benefit 2026: The Complete ESB Guide](https://calcnate.com/blog/saudi-end-of-service-2026-guide/): The half-month/full-month bands, resignation reductions and worked examples.
+- [Qatar End-of-Service Gratuity for Expats: The 3-Week Rule](https://calcnate.com/blog/qatar-gratuity-expat-guide/): The flat 21-days-per-year minimum, the basic-wage basis, and a worked example.
+- [Kuwait End-of-Service Indemnity Explained: Bands, ÷26 & the 18-Month Cap](https://calcnate.com/blog/kuwait-indemnity-explained/): The 15-day/1-month bands, the ÷26 daily wage, resignation tiers and the 18-month cap.
+- [Oman Gratuity & the New Law 53/2023: What Changed](https://calcnate.com/blog/oman-gratuity-new-law-2023/): How Royal Decree 53/2023 split old and new service — and raised the rate.
+- [Bahrain Leaving Indemnity: How End-of-Service Is Calculated](https://calcnate.com/blog/bahrain-leaving-indemnity-guide/): The half-month/full-month bands, day-one accrual and who it covers.
+- [India Gratuity Eligibility: The 5-Year Rule, 15/26 Formula & ₹20 Lakh Cap](https://calcnate.com/blog/india-gratuity-eligibility-5-years/): Who qualifies, the 15/26 formula, part-year rounding and the tax-free cap.
+- [Philippines Separation Pay Guide: How Much You're Owed by Cause](https://calcnate.com/blog/philippines-separation-pay-guide/): Authorized-cause one-month vs half-month rates, resignation, and retirement pay.
+- [How to Calculate Gratuity in the UAE: A Step-by-Step Guide](https://calcnate.com/blog/how-to-calculate-gratuity-uae-step-by-step/): Four simple steps and a fully worked example — then run it in the calculator.
+- [Gratuity: Basic Salary vs Total Salary — The Costly Mistake](https://calcnate.com/blog/gratuity-basic-salary-vs-total-salary/): Which GCC countries use basic, which use full wage, and why it changes your number.
 ## API for AI apps
 - API: https://api.calcnate.com/api/calc/gratuity?country=ae&basic=6000&years=7 (codes: ae,sa,qa,kw,bh,om,in,ph)
 - OpenAPI: https://calcnate.com/openapi.yaml (ChatGPT Actions)
