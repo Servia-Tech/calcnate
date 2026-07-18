@@ -42,6 +42,17 @@
 - [Oman Leave Encashment Calculator](https://calcnate.com/oman/leave-encashment-calculator/): Oman leave encashment: 30 days/yr; in-service cash-out is basic wage only (employer-optional, needs written consent); mandatory end-of-service encashment uses the comprehensive/gross wage.
 - [India Leave Encashment Calculator](https://calcnate.com/india/leave-encashment-calculator/): India leave encashment: (Basic+DA) ÷30 × unused earned-leave days (some employers use ÷26); tax-exempt up to ₹25 lakh lifetime for non-government employees (Sec.10(10AA)); annual entitlement RATE varies by state/sector so this tool encashes a user-supplied day balance rather than computing accrual.
 - [Philippines Leave Encashment Calculator (Service Incentive Leave)](https://calcnate.com/philippines/leave-encashment-calculator/): Philippines leave encashment: Service Incentive Leave (SIL), 5 days/yr after 1yr (Art.95), the only Labor Code leave type mandated commutable to cash; daily rate × unused SIL days.
+## Blog
+- [UAE Notice Period Explained: Article 43, Probation Notice & Pay in Lieu](https://calcnate.com/blog/uae-notice-period-explained/): The 30-90 day rule, the 14 vs 30 day probation notice, and pay in lieu on gross wage.
+- [GCC Notice Period Comparison: UAE vs Saudi vs Qatar vs Kuwait vs Bahrain vs Oman](https://calcnate.com/blog/gcc-notice-period-comparison/): Every Gulf notice period side by side, with the wage basis for pay in lieu.
+- [UAE Leave Encashment Guide: How Unused Annual Leave Is Paid Out](https://calcnate.com/blog/uae-leave-encashment-guide/): The basic-salary ÷30 formula, the 30-day entitlement and a worked example.
+- [Annual Leave Encashment Across the GCC & Asia Compared](https://calcnate.com/blog/gcc-annual-leave-encashment-compared/): Entitlement, wage basis and the ÷30 vs ÷26 divisor across eight countries.
+- [UAE Unemployment Insurance (ILOE) Guide: 60% of Basic, Category A/B Caps & How to Claim](https://calcnate.com/blog/uae-unemployment-insurance-iloe-guide/): How much ILOE pays, the caps, eligibility and the 30-day claim window.
+- [UAE Probation Period Rules: The 6-Month Cap, Notice & What You're Owed](https://calcnate.com/blog/uae-probation-period-rules/): The 6-month limit, probation notice, and why there's no gratuity.
+- [Probation Periods Compared: UAE, Saudi, Kuwait, Bahrain, Oman & Philippines](https://calcnate.com/blog/gcc-probation-periods-compared/): Max length, notice to end, and any pay owed across six countries.
+- [UAE Maternity Leave Entitlement: 60 Days, Full & Half Pay Explained](https://calcnate.com/blog/uae-maternity-leave-entitlement/): 45 days full pay + 15 half pay, no minimum service, and what it's worth.
+- [Maternity Leave Compared Across 8 Countries](https://calcnate.com/blog/gcc-maternity-leave-compared/): Duration, pay level, minimum service and who funds it, side by side.
+- [UAE Full and Final Settlement Checklist: Everything You're Owed When You Leave](https://calcnate.com/blog/full-and-final-settlement-uae-checklist/): Gratuity, leave encashment, notice, dues and ILOE — each with its calculator.
 ## API for AI apps
 - API: https://api.calcnate.com/api/calc/gratuity?country=ae&basic=6000&years=7 (codes: ae,sa,qa,kw,bh,om,in,ph)
 - OpenAPI: https://calcnate.com/openapi.yaml (ChatGPT Actions)
