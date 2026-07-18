@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2XXGD6ZV2F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-2XXGD6ZV2F");
+</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Compute Philippines Maternity Pay (Worked Example) | Calcnate Blog</title>
+<meta name="description" content="Estimate Philippines maternity pay under RA 11210: daily rate × 105 or 120 days, a worked table, and how SSS and the employer salary differential split it.">
+<link rel="canonical" href="https://calcnate.com/blog/philippines-maternity-leave-calculation-example/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article"><meta property="og:title" content="How to Compute Philippines Maternity Pay (Worked Example) | Calcnate Blog"><meta property="og:url" content="https://calcnate.com/blog/philippines-maternity-leave-calculation-example/">
+<meta name="theme-color" content="#0496AD">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to Compute Philippines Maternity Pay (Worked Example)", "author": {"@type": "Organization", "name": "Calcnate"}, "publisher": {"@type": "Organization", "name": "Calcnate", "url": "https://calcnate.com"}, "mainEntityOfPage": "https://calcnate.com/blog/philippines-maternity-leave-calculation-example/", "datePublished": "2026-07-18", "dateModified": "2026-07-18"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How is Philippine maternity pay calculated?", "acceptedAnswer": {"@type": "Answer", "text": "It is based on your average daily salary credit for the leave duration. As a working estimate, divide monthly salary by 30 for a daily rate, then multiply by 105 days (or 120 for a solo parent). SSS pays the benefit and the employer tops up the salary differential."}}, {"@type": "Question", "name": "How much maternity pay for PHP 25,000 salary?", "acceptedAnswer": {"@type": "Answer", "text": "Roughly PHP 87,500 over 105 days, or about PHP 100,000 over 120 days as a qualified solo parent. This is split between the SSS benefit and the employer's salary differential."}}, {"@type": "Question", "name": "What is the salary differential?", "acceptedAnswer": {"@type": "Answer", "text": "The difference between your full salary and what SSS pays. Your employer must pay this top-up so you receive close to full pay, unless the employer qualifies for an exemption as a small, micro or distressed business."}}, {"@type": "Question", "name": "Does the amount reduce for later children?", "acceptedAnswer": {"@type": "Answer", "text": "No. RA 11210 grants the full 105 days for every pregnancy, with no reduction based on the number of children."}}, {"@type": "Question", "name": "What if I don't have 3 SSS contributions?", "acceptedAnswer": {"@type": "Answer", "text": "The SSS maternity benefit requires at least 3 monthly contributions in the 12-month period before the semester of childbirth. Without them, the SSS-funded benefit may not be payable — check your contribution record with SSS."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Calcnate", "item": "https://calcnate.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://calcnate.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "How to Compute Philippines Maternity Pay (Worked Example)", "item": "https://calcnate.com/blog/philippines-maternity-leave-calculation-example/"}]}</script>
+<style>:root{--ink:#0f172a;--teal:#0496AD;--deep:#0F766E;--muted:#64748b;--border:#e2e8f0;--bg:#f8fafc;--good:#047857}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+body[dir=rtl]{font-family:"Segoe UI",Tahoma,Arial,sans-serif}
+.nav{background:#fff;border-bottom:1px solid var(--border);padding:10px 16px;display:flex;gap:14px;align-items:center;font-size:14px;flex-wrap:wrap}
+.nav a{color:var(--deep);text-decoration:none;font-weight:700}.nav .brand{font-size:17px;color:var(--ink);margin-inline-end:auto}.nav .brand b{color:var(--teal)}
+.nav .lang{font-size:12px;color:var(--muted);font-weight:600}
+.top{background:linear-gradient(135deg,#0F766E,#0496AD);color:#fff;padding:26px 18px}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+.top h1{font-size:25px;letter-spacing:-.02em}.top p{opacity:.93;font-size:14px;margin-top:6px}
+.card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+label{display:block;font-size:13px;font-weight:600;margin:14px 0 5px}
+.hint{font-weight:400;color:var(--muted);font-size:12px}
+input,select{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:#fff}
+input:focus,select:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(4,150,173,.12)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{margin-top:18px;width:100%;background:var(--teal);color:#fff;border:0;padding:14px;border-radius:10px;font-size:16px;font-weight:800;cursor:pointer}
+.btn:hover{background:var(--deep)}
+.res{display:none}
+.line{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--border);font-size:15px}
+.line span:last-child{font-weight:700;font-variant-numeric:tabular-nums}
+.total{display:flex;justify-content:space-between;padding:16px 0 4px;font-size:20px;font-weight:800;color:var(--good)}
+.sub{font-size:13px;color:var(--muted)}
+h2{font-size:19px;margin:22px 0 8px}h3{font-size:16px;margin:16px 0 6px}
+p{margin:8px 0}
+.disc{font-size:12px;color:var(--muted);background:#FFFBEB;border:1px solid #FDE68A;border-radius:10px;padding:12px;margin-top:14px;line-height:1.5}
+.actions{display:flex;gap:10px;margin-top:14px}
+.actions button{flex:1;padding:11px;border-radius:10px;border:1px solid var(--border);background:#fff;font-weight:700;cursor:pointer;font-size:14px}
+details{margin-top:10px;border:1px solid var(--border);border-radius:10px;padding:2px 14px;background:#fff}
+summary{font-weight:700;padding:12px 0;cursor:pointer;font-size:14px}
+details p{padding:0 0 12px;font-size:14px;color:#334155;margin:0}
+.rel{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.rel a{background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 13px;font-size:13px;color:var(--deep);text-decoration:none}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:26px;line-height:1.9}
+footer a{color:var(--deep)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0}
+td,th{border:1px solid var(--border);padding:8px 10px;text-align:start}th{background:var(--bg)}
+article{background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px;margin:16px 0}
+article h2{margin-top:18px}article ul,article ol{margin:8px 0 8px 22px}article li{margin:5px 0}
+.toolgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.tool{background:#fff;border:1px solid var(--border);border-radius:16px;padding:16px;text-decoration:none;color:var(--ink);box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.tool:hover{box-shadow:0 4px 14px rgba(4,150,173,.15)}
+.tool .ic{font-size:24px}.tool h3{font-size:15px;margin:6px 0 3px}.tool p{font-size:12.5px;color:var(--muted);margin:0}
+.tool.soon{opacity:.6}
+.crumb{font-size:12px;color:var(--muted);padding:10px 0}.crumb a{color:var(--deep);text-decoration:none}
+.blogcard{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px 20px;margin:14px 0;text-decoration:none;color:var(--ink);display:block;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.blogcard:hover{box-shadow:0 4px 14px rgba(4,150,173,.15)}
+.blogcard h3{font-size:17px;color:var(--deep);margin-bottom:4px}
+.blogcard p{font-size:13.5px;color:var(--muted);margin:0}
+.blogmeta{font-size:12px;color:var(--muted);margin:2px 0 14px}
+</style>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="/">calc<b>nate</b></a><a href="/uae/gratuity-calculator/">Gratuity UAE</a><a href="/#countries">Countries</a><a href="/blog/">Blog</a><a href="/about/">About</a></nav>
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> › <a href="/blog/">Blog</a> › How to Compute PH Maternity Pay</div>
+<article>
+<h1>How to Compute Philippines Maternity Pay (Worked Example)</h1>
+<p class="sub" style="font-size:14.5px">Estimating your 105-day (or 120-day) Philippine maternity pay, and how SSS and the employer salary differential divide it.</p>
+
+<p>Philippine maternity pay is <strong>SSS-funded</strong> and based on your average daily salary credit, with your employer topping up the difference to your full salary. This walkthrough shows how to estimate the amount, matching the <a href="/philippines/maternity-leave-calculator/">Philippines Maternity Leave Calculator</a>.</p>
+
+<h2>Step 1 — Confirm your leave duration</h2>
+<ul>
+<li><strong>Regular:</strong> 105 days paid (every pregnancy)</li>
+<li><strong>Qualified solo parent:</strong> 120 days paid (105 + 15)</li>
+<li><strong>Optional:</strong> up to 30 further days unpaid</li>
+</ul>
+
+<h2>Step 2 — Estimate your daily rate</h2>
+<p>The benefit is based on your <strong>average daily salary credit</strong>. As a simple estimate, divide your monthly salary by 30:</p>
+<p>PHP 25,000 ÷ 30 ≈ <strong>PHP 833/day</strong></p>
+<p>(The exact SSS figure uses your six-highest-months salary credits within the relevant period; the ÷30 method is a close working estimate for planning.)</p>
+
+<h2>Step 3 — Multiply by leave days</h2>
+<p style="background:#f1f5f9;border-radius:10px;padding:14px;text-align:center;font-weight:700">Maternity pay ≈ daily rate × leave days</p>
+<ul>
+<li>Regular: 833 × 105 ≈ <strong>PHP 87,500</strong></li>
+<li>Solo parent: 833 × 120 ≈ <strong>PHP 100,000</strong></li>
+</ul>
+
+<h2>Worked-example table</h2>
+<table>
+<tr><th>Monthly salary</th><th>Daily (÷30)</th><th>105 days</th><th>120 days (solo)</th></tr>
+<tr><td>PHP 15,000</td><td>PHP 500</td><td>PHP 52,500</td><td>PHP 60,000</td></tr>
+<tr><td>PHP 20,000</td><td>PHP 667</td><td>PHP 70,000</td><td>PHP 80,000</td></tr>
+<tr><td>PHP 25,000</td><td>PHP 833</td><td>PHP 87,500</td><td>PHP 100,000</td></tr>
+<tr><td>PHP 35,000</td><td>PHP 1,167</td><td>PHP 122,500</td><td>PHP 140,000</td></tr>
+</table>
+
+<h2>Step 4 — Understand SSS vs the salary differential</h2>
+<p>The total above is split between two payers: <strong>SSS</strong> pays the benefit based on your salary credit (subject to the SSS maximum), and your <strong>employer</strong> pays the <strong>salary differential</strong> — the gap between your full salary and the SSS portion — unless the employer is an exempt small or distressed business. Either way, a qualifying employee should receive close to full pay across the leave.</p>
+
+<h2>Step 5 — Check eligibility</h2>
+<p>You need at least <strong>3 monthly SSS contributions</strong> in the 12 months before the semester of childbirth. Without them, the SSS benefit may not be payable.</p>
+
+<p>Estimate your figure on the <a href="/philippines/maternity-leave-calculator/">calculator</a>. Statute: <a href="https://lawphil.net/statutes/repacts/ra2019/ra_11210_2019.html" rel="nofollow noopener" target="_blank">RA 11210 (lawphil)</a>.</p>
+
+<h2>SSS salary credit vs the simple ÷30 estimate</h2>
+<p>Our calculator uses monthly salary ÷ 30 as a clean working estimate, which is close for a stable salary. The exact SSS benefit, however, is based on your <strong>average daily salary credit</strong>, computed from your monthly salary credits (which are banded and subject to an SSS maximum) over a defined period before your contingency. For lower and middle salaries the two figures are close; for higher salaries the SSS portion is capped, and the employer's salary differential makes up more of the total. Treat the ÷30 estimate as a planning figure and confirm the exact SSS amount with your SSS record.</p>
+
+<h2>How SSS and the employer split the total</h2>
+<p>The headline total is funded in two parts. <strong>SSS</strong> pays the maternity benefit based on your salary credit, up to the SSS ceiling. Your <strong>employer</strong> pays the <strong>salary differential</strong> — the gap between your full salary and the SSS benefit — so that a qualifying employee receives close to full pay across the leave. The employer advances the SSS portion too and is later reimbursed. Small, micro and distressed businesses can be exempt from the differential, in which case your total may be limited to the SSS benefit.</p>
+
+<h2>Regular vs solo-parent duration</h2>
+<p>The duration you multiply by is 105 days as standard, or 120 days if you are a qualified solo parent under RA 8972. On a PHP 25,000 salary that is roughly PHP 87,500 versus PHP 100,000 — the extra 15 paid days adding about PHP 12,500. If you believe you qualify as a solo parent, ensure you have the documentation, because the additional 15 days depend on that status.</p>
+
+<h2>Confirm eligibility, then estimate</h2>
+<p>Before relying on any figure, confirm you have at least <strong>three monthly SSS contributions</strong> in the 12 months before the semester of childbirth — without them the SSS benefit may not be payable. Then estimate your total on the <a href="/philippines/maternity-leave-calculator/">Maternity Leave Calculator</a>, and explore the rest of the Philippine benefits on the <a href="/philippines/">Philippines hub</a>.</p>
+
+<h2>Key takeaways</h2>
+<ul>
+<li>105 days paid for every pregnancy under RA 11210; 120 days for a qualified solo parent.</li>
+<li>The benefit is SSS-funded on your average daily salary credit; ÷30 of monthly salary is a close planning estimate.</li>
+<li>SSS pays up to its ceiling; your employer pays the salary differential up to full pay, unless it is an exempt small business.</li>
+<li>You need at least 3 monthly SSS contributions in the 12 months before the semester of childbirth.</li>
+<li>Estimate on the <a href="/philippines/maternity-leave-calculator/">PH Maternity Leave Calculator</a>.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>How is Philippine maternity pay calculated?</h3><p>It is based on your average daily salary credit for the leave duration. As a working estimate, divide monthly salary by 30 for a daily rate, then multiply by 105 days (or 120 for a solo parent). SSS pays the benefit and the employer tops up the salary differential.</p>
+<h3>How much maternity pay for PHP 25,000 salary?</h3><p>Roughly PHP 87,500 over 105 days, or about PHP 100,000 over 120 days as a qualified solo parent. This is split between the SSS benefit and the employer's salary differential.</p>
+<h3>What is the salary differential?</h3><p>The difference between your full salary and what SSS pays. Your employer must pay this top-up so you receive close to full pay, unless the employer qualifies for an exemption as a small, micro or distressed business.</p>
+<h3>Does the amount reduce for later children?</h3><p>No. RA 11210 grants the full 105 days for every pregnancy, with no reduction based on the number of children.</p>
+<h3>What if I don't have 3 SSS contributions?</h3><p>The SSS maternity benefit requires at least 3 monthly contributions in the 12-month period before the semester of childbirth. Without them, the SSS-funded benefit may not be payable — check your contribution record with SSS.</p>
+<div class="rel"><a href="/philippines/maternity-leave-calculator/">🇵🇭 PH Maternity Leave Calculator →</a><a href="/philippines/maternity-leave-guide/">📖 PH maternity-leave guide</a><a href="/philippines/">🏠 Philippines hub</a><a href="/blog/philippines-maternity-leave-complete-guide/">PH maternity complete guide →</a><a href="/blog/philippines-maternity-leave-faqs-scenarios/">PH maternity FAQs →</a><a href="/blog/">More guides →</a></div>
+<div class="disc">Estimates for guidance only — not legal or financial advice. Figures reflect the statutory formulas published on the linked Calcnate calculator and guide pages; laws change, so confirm final figures with the Department of Labor and Employment (DOLE) or a qualified professional.</div>
+</article>
+</div>
+<footer>© 2026 Calcnate · A <a href="https://servia.ae" rel="noopener">Servia Group</a> project · <a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/blog/">Blog</a> · <a href="/ai/">Use in ChatGPT &amp; AI apps</a><br>Free estimates for guidance — not legal or financial advice.</footer>
+</body></html>
