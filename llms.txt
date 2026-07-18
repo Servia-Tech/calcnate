@@ -43,6 +43,30 @@
 - [India Leave Encashment Calculator](https://calcnate.com/india/leave-encashment-calculator/): India leave encashment: (Basic+DA) ÷30 × unused earned-leave days (some employers use ÷26); tax-exempt up to ₹25 lakh lifetime for non-government employees (Sec.10(10AA)); annual entitlement RATE varies by state/sector so this tool encashes a user-supplied day balance rather than computing accrual.
 - [Philippines Leave Encashment Calculator (Service Incentive Leave)](https://calcnate.com/philippines/leave-encashment-calculator/): Philippines leave encashment: Service Incentive Leave (SIL), 5 days/yr after 1yr (Art.95), the only Labor Code leave type mandated commutable to cash; daily rate × unused SIL days.
 ## Blog
+- [Qatar Gratuity 2026: The Complete End-of-Service Guide](https://calcnate.com/blog/qatar-gratuity-guide/): The 3-week rule, wage basis, resignation and a worked QAR example.
+- [How to Calculate Your Qatar Gratuity: A Worked Example](https://calcnate.com/blog/qatar-gratuity-calculation-example/): Step-by-step method with three worked QAR examples and a payout table.
+- [5 Mistakes People Make Calculating Qatar Gratuity](https://calcnate.com/blog/qatar-gratuity-mistakes/): Gross-vs-basic, wrong divisor, the 1-year rule and more.
+- [Qatar Notice Period 2026: The Complete Guide to Article 49](https://calcnate.com/blog/qatar-notice-period-guide/): Article 49: the 1-month vs 2-month rule and payment in lieu.
+- [How to Calculate Qatar Notice Pay: A Worked Example](https://calcnate.com/blog/qatar-notice-period-calculation-example/): How to work out notice pay in lieu, with worked QAR examples.
+- [Qatar Notice Period: FAQ, Scenarios & Common Mistakes](https://calcnate.com/blog/qatar-notice-period-faq/): Resigning, termination, pay in lieu and fixed-term scenarios.
+- [Qatar Leave Encashment 2026: The 21 vs 28 Day Rule](https://calcnate.com/blog/qatar-leave-encashment-guide/): Article 79: the 21 vs 28 day rule and how unused leave is paid.
+- [How to Calculate Qatar Leave Encashment: A Worked Example](https://calcnate.com/blog/qatar-leave-encashment-calculation-example/): Turn unused annual leave into a QAR figure, step by step.
+- [Qatar Leave Encashment: FAQ & Common Mistakes](https://calcnate.com/blog/qatar-leave-encashment-faq/): Resignation, the 21/28-day rate, carry-over and common mistakes.
+- [Qatar Maternity Leave 2026: The 50-Day Rule Explained](https://calcnate.com/blog/qatar-maternity-leave-guide/): The 50-day rule and the 1-year eligibility test explained.
+- [How to Calculate Qatar Maternity Leave Pay: A Worked Example](https://calcnate.com/blog/qatar-maternity-leave-calculation-example/): Calculate your 50-day maternity pay, with an eligibility check.
+- [Qatar Maternity Leave: FAQ, Scenarios & Mistakes](https://calcnate.com/blog/qatar-maternity-leave-faq/): Eligibility, job protection and private vs public sector.
+- [Kuwait End-of-Service Indemnity 2026: The Complete Guide](https://calcnate.com/blog/kuwait-indemnity-guide/): Two-band rate, the ÷26 divisor, resignation cuts and the 18-month cap.
+- [How to Calculate Kuwait Indemnity: A Worked Example](https://calcnate.com/blog/kuwait-indemnity-calculation-example/): Work out indemnity by hand for termination and resignation.
+- [5 Mistakes People Make Calculating Kuwait Indemnity](https://calcnate.com/blog/kuwait-indemnity-mistakes/): The ÷26 divisor, full-vs-basic pay and resignation reductions.
+- [Kuwait Notice Period 2026: 3 Months vs 1 Month Explained](https://calcnate.com/blog/kuwait-notice-period-guide/): 3 months vs 1 month, payment in lieu and fixed-term contracts.
+- [How to Calculate Kuwait Notice Pay: A Worked Example](https://calcnate.com/blog/kuwait-notice-period-calculation-example/): Calculate notice pay for monthly and daily-paid workers.
+- [Kuwait Notice Period: FAQ, Scenarios & Common Mistakes](https://calcnate.com/blog/kuwait-notice-period-faq/): Resigning, termination, probation and fixed-term scenarios.
+- [Kuwait Probation Period 2026: 100 Days, No Notice](https://calcnate.com/blog/kuwait-probation-guide/): Article 32: the 100-day cap and no notice required, either way.
+- [How to Calculate Kuwait Probation Pay: A Worked Example](https://calcnate.com/blog/kuwait-probation-calculation-example/): What you are owed if a job ends during probation, worked out.
+- [Kuwait Probation Period: FAQ, Scenarios & Mistakes](https://calcnate.com/blog/kuwait-probation-faq/): The 100-day cap, no-notice exit and life after probation.
+- [Kuwait Maternity Leave 2026: 70 Days Full Pay](https://calcnate.com/blog/kuwait-maternity-leave-guide/): 70 days full pay, unpaid childcare leave and nursing breaks.
+- [How to Calculate Kuwait Maternity Leave Pay: A Worked Example](https://calcnate.com/blog/kuwait-maternity-leave-calculation-example/): Calculate your 70-day maternity pay on the ÷26 basis.
+- [Kuwait Maternity Leave: FAQ, Scenarios & Mistakes](https://calcnate.com/blog/kuwait-maternity-leave-faq/): The 70-day rule, unpaid extension and job protection.
 - [UAE Notice Period Explained: Article 43, Probation Notice & Pay in Lieu](https://calcnate.com/blog/uae-notice-period-explained/): The 30-90 day rule, the 14 vs 30 day probation notice, and pay in lieu on gross wage.
 - [GCC Notice Period Comparison: UAE vs Saudi vs Qatar vs Kuwait vs Bahrain vs Oman](https://calcnate.com/blog/gcc-notice-period-comparison/): Every Gulf notice period side by side, with the wage basis for pay in lieu.
 - [UAE Leave Encashment Guide: How Unused Annual Leave Is Paid Out](https://calcnate.com/blog/uae-leave-encashment-guide/): The basic-salary ÷30 formula, the 30-day entitlement and a worked example.
